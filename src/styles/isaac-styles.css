@@ -1,0 +1,83 @@
+.purple-background{
+    background: radial-gradient(circle at center, #2d1b4e 0%, #1a0b2e 100% );
+    min-height:100vh;
+}
+
+.horizontal-centering{
+    display:flex;
+    justify-content:center;
+}
+
+.medium-vertical-gap{
+    margin-top: 50px;
+}
+
+.big-vertical-gap{
+    margin-top:80px;
+}
+
+.vertical-centering{
+    display:flex;
+    align-items:center;
+    height:100%; 
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.vertical-align{
+    display:flex;
+    flex-direction: column;
+}
+
+.horizontal-align{
+    display: flex;
+    flex-direction: row;
+}
+
+.small-vertical-gap{
+    margin-top: 15px
+}
+
+.white-text{
+    color:white !important;
+}
+
+.text-column {
+overflow: hidden; /* Prevents content from overflowing */
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+word-wrap: break-word;
+overflow-wrap: break-word;
+white-space: normal;
+text-overflow: ellipsis;
+overflow: hidden;
+max-width: 100%; /* Ensures the text doesn't exceed the column width */
+}
+
+.purple-gradient-background{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image:
+        radial-gradient(circle at top right, rgba(130,29,231,1) 0%, transparent 30%),
+        radial-gradient(circle at bottom left, rgba(130, 29, 231, 1) 0%, transparent 30%);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-none{
+    background-color: transparent !important;
+}
+
+.bg-purple {
+    background-color: #821DE7 !important
+}
